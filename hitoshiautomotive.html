@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="./main.js"></script>
+
+    <title>Document</title>
+</head>
+<body class="container-fluid bg-dark">
+  <header>
+   <div>
+     <img src="imagenes/logoHA.jpg" alt="logoHa">
+   </div>
+    <nav>
+     <ul> 
+       <a href="https://www.facebook.com/profile.php?id=61556218317439&mibextid=ZbWKwL"><li>PAGINA DE FACEBOOK</li></a>
+       <a href="#DIRECCION"><li>DIRECCION</li></a>
+       <a href="https://wa.me/qr/I3YMXQR2FJIXO1"><li>WHATSAPP</li></a>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="titulo">
+    <img src="imagenes/AUTOMOTIVE.jpg" alt="logo autimotive">
+    <h1>HITOSHI AUTOMOTIVE</h1>
+    <p>En HITOSHI ATOMOTIVE te ofrecemos el servicio de recolección en la comodidad de tu domicilio, oficina, etc.… Mientras usted está trabajando o disfrutando de su descanso, nuestro personal experto se encargará de volver a dejar su auto eficiente y seguro con las mejores herramientas, técnicas y productos del mercado. 
+    Contamos con una gran variedad de paquetes diseñados especialmente para las necesidades de su vehículo, además de contar con un sistema de mantenimiento y beneficios exclusivos.
+    </p>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imagenes/carro.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/carrito.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/taxi.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <h1>NUESTROS SERVICIOS SON:</h1>
+  </div>
+
+  <div class="contenedor">
+
+    <div class="caja">
+       <img src="imagenes/SH_Hojalateria.png" alt="hojalateria HA">
+       <h1>HOJALATERIA</h1>
+      <div id="hojalateria">
+       <p>Para realizar el proceso de laminado, contamos con un excelente equipo de técnicos que son capacitados y evaluados semestralmente por CESVI Mexico. Estos profesionales cuentan con la mejor herramienta neumática, manual y eléctrica para realizar cada paso a la perfección.Como lo son:Banco de enderezado,
+       Cortadora de plasma,Soldadora de Microalambre,Spotter y Punteadora 
+       </p>
+      </div>
+      <button onclick="muestra_oculta(hojalateria)" class="btn btn-primary" form="hojalateria">+</button>
+
+    </div>
+
+    <div class="caja">
+     <img src="imagenes/SH-Pintura.png" alt="Pintura HA">
+     <h1>PINTURA</h1>
+      <div id="pintura">
+        <p>El proceso de repintado automotriz se realiza dentro de la cabina de pintura. Con un ambiente controlado y limpio se puede obtener un excelente acabado. El igualado de color, se realiza en nuestro laboratorio de colorística, donde contamos con la línea completa de pintura RM-BASF. Cátalogos con el código de color y un software para la elaboración de cada color.
+        </p>
+      </div>
+     <button onclick="muestra_oculta(pintura)" class= "btn btn-primary" form="pintura">+</button>
+    </div>
+  </div>
+
+  <div id="DIRECCION">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.096287561993!2d-99.29588882617638!3d19.32162764421826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdf8a4eb0fb9c7%3A0x19448268242ee35c!2sCuarta%20Priv.%20Camino%20Panor%C3%A1mico%2061%2C%20El%20Balc%C3%B3n%2C%20Cuajimalpa%20de%20Morelos%2C%2005610%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1708115537114!5m2!1ses-419!2smx" width="450" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe width="450" height="250" src="https://www.youtube.com/embed/MMvkDjAIeJ8?si=-lhjvzGHeOVY-LNh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <footer>
+    <p>HITOSHI AUTOMOTIVE AGRADECE SU PREFERENCIA</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
